@@ -1,0 +1,23 @@
+{
+    "api_name": "add_work_items_to_sprint",
+    "api_description": "Adds the given work items to the sprint",
+    "arguments": [
+        {
+            "argument_name": "work_ids",
+            "description": "A list of work item IDs to be added to the sprint.",
+            "ArgumentType": "array of strings",
+        },
+        {
+            "argument_name": "sprint_id",
+            "description": "The ID of the sprint to which the work items should be added",
+            "ArgumentType": "string",
+        },
+    ],
+    "output": "None",
+    "example_queries": [
+        "add all p0 issues to current sprint",
+        "add them to my sprint",
+        "add them to current sprint",
+        "add all work items from there to current sprint"
+    ],
+}

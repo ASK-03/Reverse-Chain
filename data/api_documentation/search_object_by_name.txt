@@ -1,0 +1,21 @@
+{
+    "api_name": "search_object_by_name",
+    "api_description": "Given a search string, returns the id of a matching object in the system of record. If multiple matches are found, it returns the one where the confidence is highest.",
+    "arguments": [
+        {
+            "argument_name": "query",
+            "description": "The search string, could be for example customer’s name, part name, username.",
+            "ArgumentType": "string",
+        }
+    ],
+    "output": [
+        {
+            "output_name": "id",
+            "description": "the id of a matching object in the system of record",
+            "output_type": "list",
+        },
+    ],
+    "example_queries": [
+        "get tickets coming from this",
+    ],
+}

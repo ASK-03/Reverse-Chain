@@ -1,0 +1,24 @@
+{
+    "api_name": "create_actionable_tasks_from_text",
+    "api_description": "Given a text, extracts actionable insights, and creates tasks for them, which are kind of a work item.",
+    "arguments": [
+        {
+            "argument_name": "text",
+            "description": "The text from which the actionable insights need to be created.",
+            "ArgumentType": "string",
+        }
+    ],
+    "output": [
+        {
+            "output_name": "work_ids",
+            "description": "list of work items created from the text.",
+            "ArgumentType": "list",
+            "element_type": "string",
+        }
+    ],
+    "example_queries": [
+        "create action items from text T",
+        "given the actions list create an actionable task list",
+        "Given the notes create a action items list"
+    ],
+}

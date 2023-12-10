@@ -1,0 +1,16 @@
+{
+    "api_name": "get_sprint_id",
+    "api_description": "Returns the ID of the current sprint",
+    "output": [
+        {
+            "output_name": "sprint_id",
+            "description": "The ID of the current sprint",
+            "output_type": "string",
+        },
+    ],
+    "example_queries": [
+        "What is the current sprint id",
+        "add this to sprint",
+        "what is my current sprint"
+    ],
+}

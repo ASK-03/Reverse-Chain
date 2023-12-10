@@ -1,0 +1,24 @@
+{
+    "api_name": "summarize_objects",
+    "api_description": "Summarizes a list of objects. The logic of how to summarize a particular object type is an internal implementation detail.",
+    "arguments": [
+        {
+            "argument_name": "objects",
+            "description": "A list of objects to summarize.",
+            "ArgumentType": "list",
+        }
+    ],
+    "output": [
+        {
+            "output_name": "summary",
+            "description": "A summary of the objects",
+            "output_type": "string",
+        },
+    ],
+    "example_queries": [
+        "Summarize the work items",
+        "summarize the sprint",
+        "Generate a summary of them",
+        "Summarize work items similar to"
+    ],
+}

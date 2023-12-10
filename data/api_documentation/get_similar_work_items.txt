@@ -1,0 +1,22 @@
+{
+    "api_name": "get_similar_work_items",
+    "api_description": "Returns a list of work items that are similar to the given work item",
+    "arguments": [
+        {
+            "argument_name": "work_id",
+            "description": "The ID of the work item for which you want to find similar items",
+            "ArgumentType": "string",
+        },
+    ],
+    "output": [
+        {
+            "output_name": "similar_work_items",
+            "description": "A list of work items that are similar to the given work item",
+            "output_type": "list",
+            "element_type": "string",
+        },
+    ],
+    "example_queries": [
+        "Get all the items similar to this work item",
+    ],
+}

@@ -1,0 +1,23 @@
+{
+    "api_name": "prioritize_objects",
+    "api_description": "Returns a list of objects sorted by priority. The logic of what constitutes priority for a given object is an internal implementation detail.",
+    "arguments": [
+        {
+            "argument_name": "objects",
+            "description": "A list of objects to be prioritized",
+            "ArgumentType": "list",
+        }
+    ],
+    "output": [
+        {
+            "output_name": "prioritized_objects",
+            "description": "A list of work items that have been prioritized",
+            "output_type": "list",
+            "element_type": "string",
+        },
+    ],
+    "example_queries": [
+        "Given the list of work items, prioritize them",
+        "sort the work items"
+    ],
+}

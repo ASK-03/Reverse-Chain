@@ -1,0 +1,16 @@
+{
+    "api_name": "who_am_i",
+    "api_description": "Returns the string ID of the current user",
+    "output": [
+        {
+            "output_name": "user_id",
+            "description": "The string ID of the current user",
+            "output_type": "string",
+        },
+    ],
+    "example_queries": [
+        "add this to my sprint",
+        "Who am i",
+        "what is my current sprint id"
+    ],
+}
