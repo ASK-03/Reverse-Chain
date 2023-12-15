@@ -1,7 +1,7 @@
 # Reverse Chain
 Implementation of paper: [Reverse Chain: A Generic-Rule for LLMs to Master Multi-API Planning](https://arxiv.org/abs/2310.04474v2). This implementation uses FAISS vector database to retrieve API documentation on the basis of the query.
 
-**THIS IS NOT OFFICIAL IMPLEMENTATION OF REVERSE CHAIN**
+**THIS IS NOT AN OFFICIAL IMPLEMENTATION OF REVERSE CHAIN**
 
 ## Dependencies
 - **Python3**: Ensure that you have Python 3 installed on your system. You can download and install Python 3 from the official Python website: https://www.python.org.
@@ -10,9 +10,16 @@ Implementation of paper: [Reverse Chain: A Generic-Rule for LLMs to Master Multi
   pip --version
   ```
 ## Installation
-
-To use our model, follow the steps given below:
+To install and use carrer-scraper, follow the steps given below:
+- Fork the Reverse-Chain repository by clicking the "Fork" button at the top right corner of the repository page. This will create a copy of the repository under your GitHub account.
+- Clone the forked repository to your local machine:
+    ```
+    git clone https://github.com/{YOUR-USERNAME}/Reverse-Chain
+    ```
 - Navigate to the project directory: 
+    ```
+    cd Reverse-Chain
+    ```
 - Install the necessary Python packages by running the following command:
   ```
   pip install -r requirements.txt
