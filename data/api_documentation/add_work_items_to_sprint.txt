@@ -6,15 +6,17 @@
             "argument_name": "work_ids",
             "description": "A list of work item IDs to be added to the sprint.",
             "ArgumentType": "array of strings",
+            "Required": True,
         },
         {
             "argument_name": "sprint_id",
             "description": "The ID of the sprint to which the work items should be added",
             "ArgumentType": "string",
+            "Required": True,
         },
     ],
     "output": "None",
-    "example_queries": [
+    "example_queriesa": [
         "add all p0 issues to current sprint",
         "add them to my sprint",
         "add them to current sprint",

@@ -55,5 +55,14 @@ class VectorDataBase(FAISS):
 
 if __name__ == "__main__":
     vector_db = VectorDataBase()
-    vector_db.create_vector_db()
-    print(vector_db.retrieve_using_similarity_search("give me my id", 1))
+    vector_db.load_db()
+    document = vector_db.retrieve_using_similarity_search("give me my id", 1)
+    print(document)
+    if document is not None:
+        _document = []
+        for doc_num, doc in enumerate(document):
+            _document.append(
+                f"\nNext API:\n{document[doc_num].page_content}\nSource: {document[doc_num].metadata['source']}\n"
+            )
+        context = " ".join(_document)
+        print(context)

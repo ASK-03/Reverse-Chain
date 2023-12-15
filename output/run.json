@@ -1,0 +1,11 @@
+[
+    {
+        "tool_name": "summarize_objects",
+        "arguments": [
+            {
+                "argument_name": "objects",
+                "argument_value": "don:core:dvrv-us-1:devo/0:issue/1"
+            }
+        ]
+    }
+]

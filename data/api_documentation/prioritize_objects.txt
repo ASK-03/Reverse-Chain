@@ -1,17 +1,18 @@
 {
     "api_name": "prioritize_objects",
-    "api_description": "Returns a list of objects sorted by priority. The logic of what constitutes priority for a given object is an internal implementation detail.",
+    "api_description": "Returns a list of work items objects sorted by priority. The logic of what constitutes priority for a given object is an internal implementation detail.",
     "arguments": [
         {
             "argument_name": "objects",
-            "description": "A list of objects to be prioritized",
+            "description": "A list of work items objects to be prioritized",
             "ArgumentType": "list",
+            "required": True
         }
     ],
     "output": [
         {
             "output_name": "prioritized_objects",
-            "description": "A list of work items that have been prioritized",
+            "description": "A list of work items objects that have been prioritized",
             "output_type": "list",
             "element_type": "string",
         },

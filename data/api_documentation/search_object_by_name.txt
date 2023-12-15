@@ -3,9 +3,10 @@
     "api_description": "Given a search string, returns the id of a matching object in the system of record. If multiple matches are found, it returns the one where the confidence is highest.",
     "arguments": [
         {
-            "argument_name": "query",
+            "argument_name": "name",
             "description": "The search string, could be for example customer’s name, part name, username.",
             "ArgumentType": "string",
+            "required": True,
         }
     ],
     "output": [

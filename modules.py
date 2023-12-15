@@ -66,9 +66,13 @@ class ArgumentExtractor(ReverseChainBaseClass):
         should be in Json format, key is the argument, and value is the
         value of argument. Importantly, return None if you cannot get
         value.
+        Give arguments that can be given to the API in context, if not found an 
+        arguments value in the query return None.
         The api documentation is as below, use the context of the API to extract
         arguments that can be extracted from the user input and feeded in the API.
         if API doesnot use any arguments then, just return an empty json object:
+        
+        Context:
         {context}
         ......
         Now, Let's start.

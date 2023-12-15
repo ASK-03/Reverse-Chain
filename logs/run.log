@@ -1,0 +1,3 @@
+2023-12-16 00:03:11,563 - INFO - Final API Output: {'api_name': 'summarize_objects', 'data_source': 'data/api_documentation/summarize_objects.txt'}
+2023-12-16 00:03:13,502 - INFO - Argument for summarize_objects: {'objects': 'don:core:dvrv-us-1:devo/0:issue/1'}
+2023-12-16 00:03:13,503 - INFO - JSON: {'api_name': 'summarize_objects', 'arguments': {'objects': 'don:core:dvrv-us-1:devo/0:issue/1'}}

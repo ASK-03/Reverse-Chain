@@ -6,6 +6,7 @@
             "argument_name": "objects",
             "description": "A list of objects to summarize.",
             "ArgumentType": "list",
+            "Required": True,
         }
     ],
     "output": [

@@ -6,6 +6,7 @@
             "argument_name": "text",
             "description": "The text from which the actionable insights need to be created.",
             "ArgumentType": "string",
+            "Required": True
         }
     ],
     "output": [

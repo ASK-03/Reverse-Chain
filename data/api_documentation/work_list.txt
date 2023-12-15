@@ -6,61 +6,73 @@
             "argument_name": "applies_to_part",
             "description": "Filters for work belonging to any of the provided parts",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "created_by",
             "description": "Filters for work created by any of these users",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "issue.priority",
             "description": "Filters for issues with any of the provided priorities. Allowed values: p0, p1, p2, p3",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "issue.rev_orgs",
             "description": "Filters for issues with any of the provided Rev organizations",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "limit",
             "description": "The maximum number of works to return. The default is '50'",
             "ArgumentType": "integer (int32)",
+            "required": false
         },
         {
             "argument_name": "owned_by",
             "description": "Filters for work owned by any of these users",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "stage.name",
             "description": "Filters for records in the provided stage(s) by name",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "ticket.needs_response",
             "description": "Filters for tickets that need a response",
             "ArgumentType": "boolean",
+            "required": false
         },
         {
             "argument_name": "ticket.rev_org",
             "description": "Filters for tickets associated with any of the provided Rev",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "ticket.severity",
             "description": "Filters for tickets with any of the provided severities. Allowed values: blocker, high, low, medium",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "ticket.source_channel",
             "description": "Filters for tickets with any of the provided source channels",
             "ArgumentType": "array of strings",
+            "required": false
         },
         {
             "argument_name": "type",
             "description": "Filters for work of the provided types. Allowed values: issue, ticket, task",
             "ArgumentType": "array of strings",
+            "required": false
         }
     ],
     "output": [
