@@ -37,7 +37,8 @@ class Executor:
             return server.work_list()
         else:
             return {
-                "message": "Error, Function doesnot exist"
+                "status": 200,
+                "message": "Successfully ran function: " + function_name,
             }
 
 
