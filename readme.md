@@ -10,7 +10,7 @@ Implementation of paper: [Reverse Chain: A Generic-Rule for LLMs to Master Multi
   pip --version
   ```
 ## Installation
-To install and use carrer-scraper, follow the steps given below:
+To install and use Reverse-Chain, follow the steps given below:
 - Fork the Reverse-Chain repository by clicking the "Fork" button at the top right corner of the repository page. This will create a copy of the repository under your GitHub account.
 - Clone the forked repository to your local machine:
     ```
